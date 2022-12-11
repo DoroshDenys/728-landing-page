@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    width: 1400px;
+    height: 200px;
+}
+
+.header-logo-image {
+    height: 100px;
+}
+
+.header__nav-list {
+    display: flex;
+    margin: 20px 0 500px 0;
+    text-align: right;
+}
+
+.product {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us__title {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us__btn {
+    background-color: yellow;
+    border: none;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    word-spacing: normal;
+    letter-spacing: normal;
+    display: inline-block;
+}
+
+.our-services__title{
+    display: flex;
+    justify-content: center;
+}
